@@ -1,0 +1,20 @@
+/* layout */
+
+/* Post Style */
+p {
+  font-family: Helvetica, sans-serif;
+}
+/* .pullQuote {
+    float: left;
+    width: 100 px;
+    padding: 13px;
+    margin: 0 13px 13px 0;
+} */
+
+blockquote {
+  margin: 0;
+}
+footer {
+    padding: 10px;
+    background-color: lightgreen;
+}
