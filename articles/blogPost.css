@@ -1,20 +1,32 @@
-/* layout */
+@import "../mainPage.css";
 
-/* Post Style */
-p {
-  font-family: Helvetica, sans-serif;
+/* -----------------Flex layout----------- */
+
+
+
+/* ------------------Grid------------------------- */
+nav {
+  grid-area: header;
 }
-/* .pullQuote {
-    float: left;
-    width: 100 px;
-    padding: 13px;
-    margin: 0 13px 13px 0;
-} */
-
+section {
+  grid-area: main;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+.footer {
+  grid-area: footer;
+}
+.container {
+  display: grid;
+  /* grid-template-columns: 200px 100px 100px 100px; */
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "main main main sidebar"
+    "footer footer footer footer";
+}
 blockquote {
   margin: 0;
-}
-footer {
-    padding: 10px;
-    background-color: lightgreen;
 }
