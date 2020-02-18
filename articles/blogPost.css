@@ -14,7 +14,7 @@ section {
 .sidebar {
   grid-area: sidebar;
 }
-.footer {
+footer {
   grid-area: footer;
 }
 .container {
@@ -25,8 +25,14 @@ section {
   grid-template-areas: 
     "header header header header"
     "main main main sidebar"
+    "main main main sidebar"
+    "main main main ."
+    "main main main ."
     "footer footer footer footer";
 }
+
+
+/* Page Styles */
 blockquote {
   margin: 0;
 }
