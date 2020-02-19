@@ -1,0 +1,9 @@
+nav {
+    border: black solid 2px;
+  }
+  .bar {
+    width: 35px;
+    height: 5px;
+    background-color: #363a48;
+    margin: 6px 0;
+  }

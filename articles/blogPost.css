@@ -1,4 +1,7 @@
 @import "../mainPage.css";
+@import "../nav.css";
+@import "../footer.css";
+@import "../typography.css";
 
 /* -----------------Flex layout----------- */
 
@@ -29,10 +32,4 @@ footer {
     "main main main ."
     "main main main ."
     "footer footer footer footer";
-}
-
-
-/* Page Styles */
-blockquote {
-  margin: 0;
 }
